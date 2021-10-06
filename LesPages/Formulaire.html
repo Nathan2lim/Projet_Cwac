@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="../CSS/styleGeneral.css">
+	<link rel="stylesheet" href="../CSS/styleFormulaire.css">
+	<link rel="icon" href="./image/logoSpaceSchool/SP.ico" />
+
+	<title> Space School - Accueil </title>
+</head>
+
+<body>
+	<header>
+
+		<!--DEBUT DE LA BANNIÈRE POUR LE MENU-->
+		<img src="../image/logoSpaceSchool/Capture d’écran 2021-09-28 à 20.31.35.png" alt="logoSpaceSchool" id="logoSpaceSchoolBanniere">
+        
+        <div class="menuPrincipal">
+            <ul id="menu">
+                <li class="choixMenuPrincipale"> <a href="../index.html"> Acceuil </a> </li>
+                <li class="choixMenuPrincipale"> <a href="Formation.html"> Les différentes formation</a></li>
+                <li class="choixMenuPrincipale"> <a href="Formulaire.html"> Déposer sa candidature</a></li>
+                <li class="choixMenuPrincipale"> <a href="InfoContact.html"> Info / conctat </a></li>
+
+            </ul>
+
+        </div>
+        
+        <!--FIN DE LA BANNIÈRE POUR LE MENU-->
+    </header>
+
+
+
+    <section > 
+        <form method="POST" action="traitement.php" id="blocGeneral">
+            <fieldset>
+                <legend>Vos coordonnées</legend>
+           
+           
+            <p class="infoFormulaire" id="prenomFormulaireTT">
+                <label for = "prenomFormulaire">Prenom</label><br/>
+                <input type="text" name="prenomFormulaire" id=" prenomFormulaire" autofocus placeholder=" votre prénom"/>
+            </p>
+            <p class="infoFormulaire" >
+                <label for = "nomFormulaire"> NOM : </label><br/>
+                <input type="text" name="nomFormulaire" id="nomFormulaire" placeholder="votre nom"/>
+            </p>
+
+            <p class="infoFormulaire">
+                <label for = "ageFormulaire"> Âge : </label><br/>
+                <input type="number" name="ageFormulaire" id=" ageFormulaire" placeholder="age"/>
+            </p>
+            
+            <p class="infoFormulaire">
+                <label for = "emailFormulaire"> Email : </label><br/>
+                <input type="email" name="emailFormulaire" id=" emailFormulaire" placeholder="exemple@exemple.com"/>
+            </p>
+
+
+            <p class="infoFormulaire">
+                Veuillez indiquer à quelle formation à quelle formation vous voulez integré  <br/>
+                <input type="radio" name= "tempsFormation" value="troisAns" id="troisAns" /> <label for="troisAns"> Formation 3 ans</label><br/>
+                <input type="radio" name= "tempsFormation" value="cinqAns" id="cinqAns" /> <label for="cinqAns"> Formation 5 ans</label><br/>
+            </p>
+
+            <p class="infoFormulaire">
+                <label for= "pays"> Dans quel pays habitez-vous ? </label> <br/>
+                <select name="pays" id="pays">
+                    <option value="France" selected>France</option>
+                    <option value="Espagne">Espagne</option>
+                    <option value="USA"> USA </option>
+                    <option value="allemagne">Allemagne </option>
+                    <option value="Italie" > Italie </option>
+                    <option value="Pays-Bas">Pays-Bas </option>
+                </select>   
+            </p>
+            <p id="envoyerFormulaire">
+              <input type="submit"/>
+            </p>
+            
+        </fieldset>
+        </form>
+      </section>
+
+    <footer>
+      <p>Pensé et créé par Nathan et Lucas </p>
+      <p>Info contact : </p>
+      <p> Nathan : 06.00.09.00.06 </p>
+      <p> Lucas : 06.00.09.00.06 </p>
+
+    </footer>
+</body>
+
+
+
+
+
+
+            <!--
+            <p>
+                <input type="password" />
+            </p>
+            
+            <p>
+                <textarea rows="5" cols="10">C'est prerempli</textarea>
+            </p>
+            <p>
+                <input type="url"/>
+            </p>
+
+            <p>
+                <input type="checkbox" checked/>
+            </p>
+
+
+            <input type="radio" name= "age" value="1518" id="1518" /> <label for="1518">Entre 15 et 18</label><br/>
+                <input type="radio" name= "age" value="1830" id="1830" /> <label for="1830">Entre 18 et 30 ans</label><br/>
+                <input type="radio" name= "age" value="3050" id="3050" /> <label for="3050">Entre 30 et 50 ans</label><br/>
+                <input type="radio" name= "age" value="plus50" id="plus50" /> <label for="plus50">Plus de 50 ans </label><br/>
+
+
+
+                <p> bonjours
+                <input type="number" min="10" max="30" step="5"/>
+            </p>
+            <p>
+                <input type="date" placeholder="Date" />
+            </p>
+            <p>
+                <input type="search">
+            </p>
+
+            <input type="submit"/>
+            <p>
+                <input type="color"/>
+            </p>
+            -->

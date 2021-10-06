@@ -1,0 +1,47 @@
+/*section
+{
+  background-color: white;
+}
+*
+{
+  background-color: white;
+}*/
+
+.photoCrea
+{
+  width: 250px;
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.row {
+        display: flex;
+        margin-bottom: 10px;
+      }
+
+.col {
+        flex: 1; 
+        padding: 1em;
+        border: solid;
+        height: 600px;
+        width: 100px;
+        border-radius: 50px;
+        margin-left: 20px; 
+        margin-right: 20px;
+                
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+@media screen and (max-width: 620px)
+{
+
+  .photoCrea{
+    width: 100px;
+  }
+}

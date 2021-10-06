@@ -1,0 +1,49 @@
+#lesFormations
+{
+  color: white;
+}
+
+.photoFormation
+{
+  height: auto;
+  width: 400px;
+}
+
+#formationAstronomie, #formationPhotos, #formationIgen, #formationSurvie
+{
+  padding-left: 1px;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  background-color: blueviolet;
+  margin-bottom: 40px;
+  border: white solid 5px;
+  border-radius: 10px;
+  
+}
+
+
+#formationIgen, #formationSurvie
+{
+  background-color: red;
+}
+
+
+.texteFormation
+{
+  text-align: justify;
+  margin-left: 2%;
+  margin-right: 2%; 
+  
+  padding-top : 10px;
+}
+.texteFormation h1
+{
+  margin-bottom: 10px 
+}
+.infoforma
+{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}

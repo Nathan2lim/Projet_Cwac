@@ -1,17 +1,73 @@
+/*///////// ASPECT GÉNÉRAL ////////////////////*/
+
 *
 {
-    margin: 0;
-   /* background-color: blue;*/
+  margin: 0;
+  font-family: copperplate;
+  /* background-color: blue;*/
 }
+
 header
 {
-    position: fixed;
-    margin: auto;
-    width: 100%;
-    margin-bottom: 0%;
-    text-align: center;
-    
+  position: fixed;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 0%;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 20px; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
+
+body
+{
+background-image: url(https://acegif.com/wp-content/gif/outerspace-58.gif);   
+background-repeat: no-repeat; 
+background-size: 100% 100%; 
+
+}
+section
+{
+  padding-top: 200px; 
+  /*
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px
+  */
+}
+
+/*/////////////BLOCK PRINCIPAL ////////////*/
+#blocGeneral
+{
+  background-color : rgb(1, 3, 82);
+  color : white; 
+  margin-left: 10%; 
+  margin-right: 10%;
+  padding: 20px 2% 50px; /* espace de chaque cote du text*/ 
+  border-radius: 50px;
+  border: white solid 5px;
+  box-shadow: 15px 8px 5px; 
+
+  /*width: auto;*/
+}
+
+#titreGeneral
+{
+  text-align : center; 
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+#texteGeneral
+{
+  font-size: 18;
+  vertical-align: middle; 
+  text-align: justify;   
+}
+
+/*///////////// ASPECT MENU ///////////////*/
 
 #menu a {
     
@@ -21,9 +77,16 @@ header
 	display: flexbox;
 	text-align: center;
   text-decoration: none;
-  border: white solid 2px;
+  border:black solid 2px;
+  
 
 }
+#menu a:hover{
+box-shadow: 6px 6px 0px; 
+font-size: 25px;
+}
+
+
 ul
 {
     display: flex;
@@ -43,4 +106,16 @@ li{
     margin-left: 50px;
     margin-right: auto;
     padding-bottom: 10px; 
+}
+
+/*/////// FOOTER ///// */
+
+footer
+{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 }

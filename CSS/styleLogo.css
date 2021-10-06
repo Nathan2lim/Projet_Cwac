@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Copperplate Gothic Bold";
+  src: url("/Police/Copperplate.otf");
+}
+
+@font-face {
+  font-family: "OCR";
+  src: url("/Police/OCRAStd.otf");
+}
+
+
+
+#logo
+{
+  display: flex;
+  font-size: 80px;
+  margin: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  
+}
+
+#logologo{
+height: 130px;
+width: auto;
+}
+#textLogoInter{
+  display: none;
+}
+
+#slogan{
+  padding-top: 0;
+  font-size: 30px;
+  text-align: center;
+  word-spacing: 10px;
+  margin-top: auto;
+  font-family: "OCR";
+}
+
+#logoPlusSlogan{
+  font-family: "Copperplate Gothic Bold";
+  display: grid;
+}
+@media screen and (max-width: 620px)
+{
+  #slogan, space, school
+  {
+    display: none;
+  }
+  #space{
+    display: none;
+  }
+  #school{
+    display: none;
+  }
+  #logologo{
+    height: 80px;
+  }
+  #logo{
+    font-size: 13px;
+  }
+  #textLogoInter
+  {
+    display: block;
+    text-align: center;
+  }
+}
+
+
