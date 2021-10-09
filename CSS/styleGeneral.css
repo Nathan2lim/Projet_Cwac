@@ -1,5 +1,13 @@
 /*///////// ASPECT GÉNÉRAL ////////////////////*/
+@font-face {
+  font-family: "Copperplate Gothic Bold";
+  src: url("/Police/Copperplate.otf");
+}
 
+@font-face {
+  font-family: "OCR";
+  src: url("/Police/OCRAStd.otf");
+}
 *
 {
   margin: 0;
@@ -119,3 +127,69 @@ footer
   padding-bottom: 10px;
 
 }
+
+/*////////// ASPECT LOGO REPONSIVE /////////*/
+
+
+#logo
+{
+  display: flex;
+  font-size: 50px;
+  margin: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  
+}
+
+#logologo
+{
+height: 60px;
+width: auto;
+}
+#textLogoInter
+{
+  display: none;
+}
+
+#slogan
+{
+  padding-top: 0;
+  font-size: 20px;
+  text-align: center;
+  word-spacing: 9px;
+  margin-top: auto;
+  font-family: "OCR";
+}
+
+#logoPlusSlogan
+{
+  font-family: "Copperplate Gothic Bold";
+  display: grid;
+  padding-bottom: 10px; 
+}
+@media screen and (max-width: 950px)
+{
+  #slogan, space, school
+  {
+    display: none;
+  }
+  #space{
+    display: none;
+  }
+  #school{
+    display: none;
+  }
+  #logologo{
+    height: 80px;
+  }
+  #logo{
+    font-size: 13px;
+  }
+  #textLogoInter
+  {
+    display: block;
+    text-align: center;
+  }
+}
+
+
