@@ -1,6 +1,6 @@
 /*///////// ASPECT GÉNÉRAL ////////////////////*/
 @font-face {
-  font-family: "Copperplate Gothic Bold";
+  font-family: "Copp";
   src: url("/Police/Copperplate.otf");
 }
 
@@ -11,7 +11,8 @@
 *
 {
   margin: 0;
-  font-family: copperplate;
+  /*font-family: copperplate;*/
+
   /* background-color: blue;*/
 }
 
@@ -26,6 +27,8 @@ header
   padding-bottom: 20px; 
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 
@@ -76,7 +79,10 @@ section
 }
 
 /*///////////// ASPECT MENU ///////////////*/
+#menu{
+  width: 100%;
 
+}
 #menu a {
     
   font-size: 20px;
@@ -101,6 +107,7 @@ ul
     justify-content: center;
     list-style-type: none;
     text-align : center;
+    padding-left: 0;
 
 }
 
@@ -133,11 +140,15 @@ footer
 
 #logo
 {
+  width: 100%;
+
   display: flex;
   font-size: 50px;
-  margin: auto;
   margin-bottom: 0;
   padding-bottom: 0;
+  align-items: center;
+  justify-content: center;
+  
   
 }
 
@@ -145,10 +156,12 @@ footer
 {
 height: 60px;
 width: auto;
+
 }
 #textLogoInter
 {
   display: none;
+  
 }
 
 #slogan
@@ -159,13 +172,15 @@ width: auto;
   word-spacing: 9px;
   margin-top: auto;
   font-family: "OCR";
+  
 }
 
 #logoPlusSlogan
 {
-  font-family: "Copperplate Gothic Bold";
+  font-family: "Copp";
   display: grid;
   padding-bottom: 10px; 
+  
 }
 @media screen and (max-width: 950px)
 {

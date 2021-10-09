@@ -40,6 +40,7 @@ width: auto;
 #logoPlusSlogan{
   font-family: "Copperplate Gothic Bold";
   display: grid;
+  margin: auto;
 }
 @media screen and (max-width: 950px)
 {
@@ -64,9 +65,7 @@ width: auto;
     display: block;
     text-align: center;
   }
-  #logoPlusSlogan{
-  display: 
-  }
+
 }
 
 
